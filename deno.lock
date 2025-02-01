@@ -15,6 +15,7 @@
     "jsr:@std/log@~0.224.13": "0.224.13",
     "jsr:@std/path@1": "1.0.8",
     "jsr:@zip-js/zip-js@^2.7.52": "2.7.54",
+    "npm:console-table-printer@^2.12.1": "2.12.1",
     "npm:dayjs@^1.11.13": "1.11.13"
   },
   "jsr": {
@@ -78,8 +79,17 @@
     }
   },
   "npm": {
+    "console-table-printer@2.12.1": {
+      "integrity": "sha512-wKGOQRRvdnd89pCeH96e2Fn4wkbenSP6LMHfjfyNLMbGuHEFbMqQNuxXqd0oXG9caIOQ1FTvc5Uijp9/4jujnQ==",
+      "dependencies": [
+        "simple-wcswidth"
+      ]
+    },
     "dayjs@1.11.13": {
       "integrity": "sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg=="
+    },
+    "simple-wcswidth@1.0.1": {
+      "integrity": "sha512-xMO/8eNREtaROt7tJvWJqHBDTMFN4eiQ5I4JRMuilwfnFcV5W9u7RUkueNkdw0jPqGMX36iCywelS5yilTuOxg=="
     }
   },
   "workspace": {
@@ -87,6 +97,7 @@
       "jsr:@astral/astral@~0.5.2",
       "jsr:@std/assert@1",
       "jsr:@std/log@~0.224.13",
+      "npm:console-table-printer@^2.12.1",
       "npm:dayjs@^1.11.13"
     ]
   }
